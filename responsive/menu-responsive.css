@@ -1,0 +1,26 @@
+@media screen and (max-width:768px) {
+    .arl_logo{
+        width: 30%;
+    }
+    .menu_list{
+        font-size: 18px;
+    }
+    .navigation{
+        display: none;
+    }
+   .hamburger{
+        display: block;
+    }
+    .close_icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .arl_logo{
+        width: 50%;
+    }
+    .text_marque{
+        font-size: 13px;
+    }
+}

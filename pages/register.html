@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="../js/resister.js"></script>
+    <script>
+
+        function savedata(){
+            let Fname,Lname,Email,password,gender;
+            name=document.getElementsByClassName("fname").value;
+             let user_records=new Array();
+             localStorage.setItem("fname", name)
+        }
+    </script>
+    
+    <div class="container">
+        <form class="form">
+            <div class="heading">
+                <h1 class="register_text">
+                    Registration Form
+                </h1>
+            </div>
+            <div class="username">
+                <div class="first_name">
+                    <i class="fa fa-user user_icon" aria-hidden="true"></i>
+                    <input type="text" placeholder="First Name" class="fname" required>
+                </div>
+                <div class="second_name">
+                    <i class="fa fa-user user_icon" aria-hidden="true"></i>
+                    <input type="text" placeholder="Last Name" class="lname" required>
+                </div>
+            </div>
+            <div class="email">
+                <i class="fa fa-envelope email_icon" aria-hidden="true"></i>
+                <input type="email" placeholder="E-mail" class="email_input" required>
+            </div>
+            <div class="password">
+                <i class="fa fa-lock lock_icon" aria-hidden="true"></i>
+                <input type="password" placeholder="Password" class="pass_input" required>
+            </div>
+            <div class="password">
+                <i class="fa fa-lock lock_icon" aria-hidden="true"></i>
+                <input type="password" placeholder="Confirm Password" class="pass_input" required>
+            </div>
+            <div class="gender">
+                <input type="radio" name="gender" checked>
+                <label class="male">Male</label>
+                <input type="radio" name="gender">
+                <label class="female">Female</label>
+            </div>
+            <div class="tick_box">
+                <input type="checkbox" checked>
+                <label class="aggrement">I Accept the Term and Condition</label>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Register" class="register_btn">
+            </div>
+            <div class="login">
+                <span class="login_text">Already a User ?</span>
+                <a href="login.html" class="login_link">Login</a>
+            </div>
+            <a href="../index.html" class="home">Back to Home</a>
+        </form>
+    </div>
+</body>
+</html>

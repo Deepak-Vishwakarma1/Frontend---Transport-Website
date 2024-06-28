@@ -1,0 +1,33 @@
+@media screen and (max-width:768px) {
+    .why_div{
+        width: 20%;
+    }
+    .why_text{
+        font-size: 30px;
+    }    
+    .support_div, .shipment_div, .careful_div, .delivery_div{
+        width: 50%;
+        padding: 20px;
+    }
+    .support_title, .shipment_title, .careful_title, .delivery_title{
+        font-size: 20px;
+    }
+    .support_desc, .shipment_desc, .careful_desc, .delivery_desc{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .why_div{
+        width: 30%;
+    }
+    .why_text{
+        font-size: 25px;
+        word-break: break-all;
+    }
+    .support_div, .shipment_div, .careful_div, .delivery_div{
+        width: 80%;
+        margin: auto;
+        word-break: break-all;
+    }
+}

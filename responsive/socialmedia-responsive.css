@@ -1,0 +1,15 @@
+@media screen and (max-width:768px) {
+    .socialmedia{
+        flex-direction: column;
+        word-break: break-all;
+    }
+    .email, .number1, .number2, .follow_text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:550px) {
+    .mail-number{
+        flex-direction: column;
+        word-break: break-all;
+    }
+}

@@ -1,0 +1,25 @@
+.body_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(to bottom left, rgba(195, 0, 0, 0.429), rgba(0, 174, 255, 0.451), rgba(2, 247, 2, 0.205), rgba(218, 0, 131, 0.518));
+    padding: 10px 30px;
+
+}
+.image_div1, .image_div2, .image_div3,.image_div4, .image_div5, .image_div6{
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    word-break: break-all;
+
+}
+.champion_title, .leyland_title, .tata_acc_title, .tataex_title, .tata1100_title, .tatalpt_title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    padding: 5px 0;
+}
+.champion_image,.leyland_image,.tata_acc_image, .tataex_image,.tata1100_image, .tatalpt_image{
+    width: 90%;
+    height: 40vh;
+    border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  .innerfoot{
+    padding: 0;
+  }
+.foot_arl_text {
+    font-size: 2rem;
+  }
+  .foot_expressway_text {
+    font-size: 15px;
+  }
+  .address_text,
+  .contact_text,
+  .connect{
+    font-size: 28px;
+  }
+  .address_detail, .contact_detail{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:425px) {
+    .innerfoot{
+        padding: 5px;
+      }
+    .foot_arl_text {
+        font-size: 2.1rem;
+      }
+      .foot_expressway_text {
+        font-size: 17px;
+      }
+      .address_text,
+      .contact_text,
+      .connect{
+        font-size: 25px;
+      }
+      .address_detail, .contact_detail{
+        font-size: 13px;
+      }
+      .contact_icon img{
+       width: 15%; 
+      }
+    }

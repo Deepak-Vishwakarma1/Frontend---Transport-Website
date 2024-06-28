@@ -1,0 +1,41 @@
+
+/* ----------------------Footer Design --------------------- */
+.foot{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.innerfoot{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    align-items: center;
+}
+.foot_logo, .address, .contactus, .connect_with_us{
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.foot_arl_text{
+    font-size: 2.5rem;
+    color: red;
+    font-family: fantasy;
+}
+.foot_expressway_text{
+    font-family: cursive;
+}
+.address_text, .contact_text, .connect{
+    padding: 20px 0;
+    font-family: 'Roboto Slab', serif;
+}
+.copy_logo{
+    border-top: 1px solid white;
+    padding: 5px 0;
+}
+#copyright{
+    font-size: 12px;
+    text-align: center;
+}

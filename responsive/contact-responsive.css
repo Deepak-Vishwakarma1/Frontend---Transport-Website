@@ -1,0 +1,23 @@
+@media screen and (max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
+    .query{
+        width: 100%;
+    }
+    .form_section{
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+    .container{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:260px) {
+    .container{
+        word-break: break-all;
+        margin: 0;
+        padding: 0;
+    }
+}

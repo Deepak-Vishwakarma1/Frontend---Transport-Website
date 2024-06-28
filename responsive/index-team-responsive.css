@@ -1,0 +1,23 @@
+@media screen and (max-width:786px) {
+    .team_text_div{
+        width: 25%;
+    }
+    .team_text{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .our_team{
+        word-break: break-all;
+    }
+    .team_text{
+        font-size: 20px;
+    }
+    .Satyam_name{
+        font-size: 15px;
+    }
+    .setyam_detail{
+        font-size: 10px;
+    }
+}

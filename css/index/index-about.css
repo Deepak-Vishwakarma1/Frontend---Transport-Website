@@ -1,0 +1,25 @@
+
+.about_section{
+    padding: 20px 0;
+}
+.why_div{
+    width: 15%;
+    margin: 10px auto;
+    border-bottom: 2px solid black;
+}
+.why_text{
+    text-align: center;
+    font-size: 38px;
+    text-shadow: 0px 0px 5px teal;
+}
+.inner_about_section{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.support_div, .shipment_div, .careful_div, .delivery_div{
+    width: 23%;
+}

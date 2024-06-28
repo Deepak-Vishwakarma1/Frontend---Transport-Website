@@ -1,0 +1,54 @@
+/* Web Font Link*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/* End Web Font Link*/
+::selection{
+    color: white;
+    background-color: rgba(245, 5, 5, 0.795);
+}
+
+/* Parent Body Design */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* End Parent Body Design */
+
+/* Social Media Div Designing Section */
+.socialmedia {
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.mail-number {
+    display: flex;    
+}
+.mail {
+    padding: 0 10px;
+}
+.number, .follow_text{
+    letter-spacing: 1px;
+}
+.email_link {
+    text-decoration: none;
+    color: white;
+}
+.email_link:hover {
+    color: black;
+}
+.socialmediaicon {
+    padding: 0 10px;
+}
+.social_icon_link {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+.social_icon_link:hover {
+    color: black;
+}
+/* End Social Media Div Designing Section */

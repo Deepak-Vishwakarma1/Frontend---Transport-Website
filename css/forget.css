@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgba(65, 63, 63, 0.37);
+    padding: 40px 0 0 0;
+    height: 100vh;
+}
+.form{
+    background-color: white;
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.5);
+}
+.forget_text{
+    padding: 20px 0;
+}
+.old_pass, .new_pass, .new_pass1{
+    padding: 10px 0;
+}
+input{
+    padding: 5px 0;
+}
+label{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.reset_btn{
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.home{
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
+}

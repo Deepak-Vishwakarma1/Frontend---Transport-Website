@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}        
+      
+
+/* Menu Designing */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.sticky{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background:#f8f9faac;
+}
+.arl_logo{
+    width: 20%;
+}
+.arl_image{
+    width: 30%;
+    border-radius: 10px;
+}
+.navigation{
+    display: flex;
+    margin-right: 50px;
+}
+.menu_list{
+    list-style: none;
+    font-weight: 800;
+    font-size: 22px;
+}
+.menu_link{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 15px;
+}
+.menu_link:hover{
+    color: rgb(255, 94, 0);
+    /* transition: 0.2s; */
+    background-color: aqua;
+    border-radius:8px;
+    box-shadow: 2px 2px 5px black;
+    border: 1px solid black;
+    padding: 0 13px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.text_marque{
+    background-color: rgb(255, 255, 0);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* End Menu Designing */
